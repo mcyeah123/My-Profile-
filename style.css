@@ -1,0 +1,67 @@
+/* Harmony Theme */
+body {
+    background-color: #f0f8ff;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease;
+}
+
+header {
+    background-color: #87ceeb;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+#info, #fun-facts, #socials {
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #87ceeb;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Discord Theme */
+body.discord {
+    background-color: #2e2e2e;
+    color: #ddd;
+}
+
+header.discord {
+    background-color: #ff4500;
+}
+
+footer.discord {
+    background-color: #ff4500;
+}
+
+#info.discord, #fun-facts.discord, #socials.discord {
+    background-color: #333;
+    color: #ddd;
+    border-color: #555;
+}
